@@ -37,4 +37,5 @@ bin/*[!.zip]
 *.exe
 *_Packaged
 *.dmg
+*.zip
 

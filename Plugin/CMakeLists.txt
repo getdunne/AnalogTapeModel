@@ -7,7 +7,7 @@ add_subdirectory(modules)
 include_directories(modules/RTNeural)
 
 # set up plugin project
-# juce_set_vst2_sdk_path(C:/SDKs/VST_SDK/VST2_SDK/)
+juce_set_vst2_sdk_path(/Users/shane/SDKs/VST_SDK/VST2_SDK/)
 # include_directories(ASIO_SDK)
 
 if(IOS)
@@ -25,7 +25,7 @@ else()
         COMPANY_NAME chowdsp
         PLUGIN_MANUFACTURER_CODE Chow
         PLUGIN_CODE Jdox
-        FORMATS AU VST3 Standalone LV2 #VST
+        FORMATS AU VST3 Standalone LV2 VST
         ProductName "CHOWTapeModel"
         LV2_URI https://github.com/jatinchowdhury18/AnalogTapeModel
         ICON_BIG Source/GUI/Assets/logo.png
