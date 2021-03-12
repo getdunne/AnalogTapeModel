@@ -10,7 +10,6 @@
 
 #pragma once
 
-#include "GUI/AutoUpdating.h"
 #include "GUI/MyLNF.h"
 #include "GUI/OnOffManager.h"
 #include "GUI/TapeScope.h"
@@ -101,7 +100,6 @@ private:
 
     PresetManager presetManager;
     MyLNF myLNF;
-    AutoUpdater updater;
     MixGroupsController mixGroupsController;
 
     //==============================================================================

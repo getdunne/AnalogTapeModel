@@ -315,7 +315,6 @@ AudioProcessorEditor* ChowtapeModelAudioProcessor::createEditor()
     auto* editor = new foleys::MagicPluginEditor (magicState, BinaryData::gui_xml, BinaryData::gui_xmlSize, std::move (builder));
 #endif
     onOffManager.setOnOffForNewEditor (editor);
-    updater.showUpdaterScreen (editor);
     return editor;
 }
 
